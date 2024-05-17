@@ -1,0 +1,51 @@
+/*style the links inside the navigation bar*/
+.topnav a {
+    position: relative;
+    text-align: center;
+    color: black;
+    padding: 14px 35px;
+    text-decoration: none;
+    font-size: 23px;
+}
+
+/*change the links on hover*/
+.topnav a:hover {
+    background-color: #ecedee;
+    color: black;
+    border-radius: 12px;
+}
+
+.main-title{
+    text-align: center; /* Center-align the text */
+}
+
+/* paragraph*/
+p {
+    text-align: center;
+    margin: 0 auto;
+    width: 50%; /* Adjust the width as needed */
+    padding-bottom: 25px;
+    font-size: 19px;
+}
+
+/* images */
+.image-grid {
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap to the next row */
+    justify-content: space-between; /* Distributes items evenly with space between */
+    align-items: center; /* Centers items vertically */
+    gap: 20px; /* Sets space between grid items */
+}
+
+.image-grid img {
+    max-width: calc(50% - 10px); /* Limits maximum width of images to 50% of container width minus gap */
+    height: auto; /* Maintains aspect ratio */
+}
+
+/*footer*/
+footer {
+    color: black;
+    text-align: center;
+    padding: 30px;
+    width: 95%;
+} 

@@ -1,0 +1,109 @@
+.topnav a {
+    position: relative;
+    text-align: center;
+    color: black;
+    padding: 14px 40px;
+    text-decoration: none;
+    font-size: 23px;
+}
+
+/*change the links on hover*/
+.topnav a:hover {
+    background-color: #ecedee;
+    color: black;
+    border-radius: 12px;
+}
+
+h1{
+    padding-top: 2%;
+    text-align: center; /* Center-align the text */ 
+}
+
+h3{
+    text-align: center; /* Center-align the text */
+    font-weight: normal;
+    width: 50%;
+    padding-left: 25%; 
+}
+
+.exec-title{
+    text-align: left;
+    padding-left: 2%;
+}
+
+.exec-branch {
+    font-weight: normal;
+    padding-left: 2%;
+    width: 40%;
+}
+
+.exec-video-container {
+    position: relative;
+    width: 100%; /* Set the width of the video container */
+    margin-left: 53%; /* Center the container horizontally */
+    transform: translateX(-50%); /* Center the container horizontally */
+    overflow: hidden;
+    margin-top: -300px; 
+}
+
+.exec-youtube-video {
+    margin-left: 53%;
+}
+
+.leg-title{
+    text-align: right;
+    padding-right: 2%;
+}
+
+.leg-branch {
+    text-align: left;
+    margin-left: auto;
+    font-weight: normal;
+    padding-right: 2%;
+    width: 40%;
+}
+
+.leg-video-container {
+    position: relative;
+    width: 100%; /* Set the width of the video container */
+    margin-left: 53%; /* Center the container horizontally */
+    transform: translateX(-50%); /* Center the container horizontally */
+    overflow: hidden;
+    margin-top: -260px; 
+}
+
+.jud-title{
+    text-align: left;
+    padding-left: 2%;
+}
+
+.jud-branch {
+    font-weight: normal;
+    padding-left: 2%;
+    width: 40%;
+}
+
+.jud-video-container {
+    position: relative;
+    width: 100%; /* Set the width of the video container */
+    margin-left: 53%; /* Center the container horizontally */
+    transform: translateX(-50%); /* Center the container horizontally */
+    overflow: hidden;
+    margin-top: -300px; 
+}
+
+.jud-youtube-video {
+    margin-left: 53%;
+}
+
+
+
+
+/*footer*/
+footer {
+    color: black;
+    text-align: center;
+    padding: 30px;
+    bottom: 0%;
+    width: 95%;
+} 
