@@ -1,0 +1,39 @@
+.topnav a {
+    position: relative;
+    text-align: center;
+    color: black;
+    padding: 14px 40px;
+    text-decoration: none;
+    font-size: 23px;
+}
+
+/*change the links on hover*/
+.topnav a:hover {
+    background-color: #ecedee;
+    color: black;
+    border-radius: 12px;
+}
+
+/*footer*/
+footer {
+    color: black;
+    text-align: center;
+    padding: 30px;
+    width: 95%;
+} 
+
+body{
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+h2{
+    font-weight: normal;
+    text-align: center;
+    padding-top: 2%;
+}
+
+h3{
+    font-weight: normal;
+    padding-top: 2%;
+}

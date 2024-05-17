@@ -1,0 +1,41 @@
+/* virtual-tours.css */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    min-height: 100vh; /* Ensure the page takes up at least the viewport height */
+}
+
+.topnav a {
+    position: relative;
+    text-align: center;
+    color: black;
+    padding: 14px 40px;
+    text-decoration: none;
+    font-size: 23px;
+}
+
+/*change the links on hover*/
+.topnav a:hover {
+    background-color: #ecedee;
+    color: black;
+    border-radius: 12px;
+}
+
+h1 {
+    padding-top: 2%;
+    text-align: center;
+}
+
+/* Adjust the width of the video containers if needed */
+.white-house-video-container,
+.congress-video-container,
+.sc-video-container {
+    margin-bottom: 20px; /* Add space between videos */
+}
+
+/* Ensure videos are responsive */
+iframe {
+    max-width: 100%;
+}
