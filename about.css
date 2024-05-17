@@ -1,0 +1,42 @@
+.topnav a {
+    position: relative;
+    text-align: center;
+    color: black;
+    padding: 14px 40px;
+    text-decoration: none;
+    font-size: 23px;
+}
+
+/*change the links on hover*/
+.topnav a:hover {
+    background-color: #ecedee;
+    color: black;
+    border-radius: 12px;
+}
+
+/* styles.css */
+.centered-image {
+    padding-top: 3%;
+    display: block; /* Ensures the image is a block element */
+    margin: auto; /* Centers the image horizontally */
+    width: 600px; /* Sets a specific width for the image */
+    height: auto; /* Ensures the image maintains its aspect ratio */
+}
+
+
+h3{
+    text-align: center; /* Center-align the text */
+    font-weight: normal;
+    width: 70%;
+    padding-top: 2%;
+    padding-left: 15%;
+    font-size: 20px;
+}
+
+/*footer*/
+footer {
+    color: black;
+    text-align: center;
+    padding: 30px;
+    width: 95%;
+} 
